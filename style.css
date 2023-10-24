@@ -1,0 +1,24 @@
+.btn {
+  border: 2px solid blue;
+  margin: 20%;
+  padding: 10px;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(170, 170, 252);
+}
+
+.sel {
+  margin: 0%;
+  padding: 5px;
+}
+
+@media (max-width: 570px) {
+#select {
+  display: inline-block;
+}
+#btn {
+  display: none;
+}
+}
